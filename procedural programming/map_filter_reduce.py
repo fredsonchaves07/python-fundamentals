@@ -34,3 +34,17 @@ product_discount = map(
 )
 
 print(list(product_discount))
+
+# Filter realiza a filtragem dos dados. Muito similar a função map
+# Retorna True ou False para expressão informada
+new_list = filter(lambda x: x > 5, list1)
+
+print(list(new_list))
+
+# A  função reduce não vem por padrão. É necessário realizar a importação
+# reduce e uma função acumuladora de listas
+from functools import reduce
+
+new_list2 = reduce(lambda ac, i: i + ac, list1, 0)
+
+print(new_list2)
