@@ -23,9 +23,9 @@ class Account(ABC):
     def account_number(self, account_number):
         self.__account_number = account_number
 
-    @abstractmethod
     def deposit(self, value):
-        pass
+        if value > 0:
+            self.__balance += value
 
     @abstractmethod
     def withdraw(self, value):
