@@ -9,7 +9,7 @@ class Calc(QMainWindow):
         self.grid = QGridLayout(self.cw)
         self.display = QLineEdit()
 
-        self.setWindowTitle("Calc app")
+        self.setWindowTitle("Calculator app")
         self.setFixedSize(400, 400)
         self.grid.addWidget(self.display, 0, 0, 1, 5) 
         self.display.setDisabled(True)
