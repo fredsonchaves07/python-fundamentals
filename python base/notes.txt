@@ -1,0 +1,2 @@
+Minha primeira Nota	geral	Primeira nota
+Minha Segunda Nota	tecnologia	Python é top
